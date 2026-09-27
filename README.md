@@ -4,6 +4,15 @@ A full-stack, real-time single-room chat application built with **React**, **Nod
 
 ---
 
+## Live Demo
+
+- **App:** https://global-chat-room-ten.vercel.app
+- **API:** [Live API](https://global-chat-room.onrender.com)
+
+---
+
+---
+
 ## Project Structure
 
 The project is structured into two independently deployable services:
