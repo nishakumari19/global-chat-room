@@ -25,7 +25,7 @@ export const useChat = (username: string): UseChatReturn => {
   const [isLoadingHistory, setIsLoadingHistory] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
-  const typingTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+  const typingTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const isCurrentlyTypingRef = useRef<boolean>(false);
 
   const clearError = useCallback(() => setError(null), []);
